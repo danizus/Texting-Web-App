@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="person-selector">
+        <button class="button person-selector-button active-person" id="daniyal-select">Daniyal</button>
+        <button class="button person-selector-button " id="sharim-select">Sharim</button>
+
+    </div>
+    <div class="text-container">
+        <h3 class="chat-header">Daniyal chatting...</h3>
+        <div class="texts">
+            <div class="message red-bg">
+                <div class="message-sender">Daniyal</div>
+                <div class="message-text">hey there, what's up</div>
+                <div class="message-timestamp">10:30am</div>
+            </div>
+            <div class="message gray-bg">
+                <div class="message-sender">sharim</div>
+                <div class="message-text">nothing, what about you?</div>
+                <div class="message-timestamp">10:35am</div>
+            </div>
+        </div>
+        <form action="" class="chat-input-form">
+            <input type="text" class="chat-input" required placeholder="type here Daniyal">
+            <button type="submit" class="button send-button red-bg">send</button>
+        </form>
+        <button class="button clearchat">clear chat</button>
+    </div>
+
+
+
+
+    <script src="./main.js"></script>
+</body>
+</html>
